@@ -16,5 +16,15 @@
     --Cream: hsl(27, 66%, 92%);
     --Verypaleorange: hsl(33, 100%, 98%);
 }
+ .bar{
+    background-color: var(--Softred);
+    width: 50px;
 
+ }
+
+
+ .graph{
+    display: flex;
+    align-items: baseline;
+ }
 

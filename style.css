@@ -45,7 +45,7 @@ header{
     color: var(--Cream);
     padding: 20px 40px;
     display: flex;
-    gap: 85%;
+    justify-content: space-between;
     width: 50%;
     margin: auto;
     margin-top: 8%;
@@ -58,8 +58,8 @@ header{
     font-size: 20px;
 }
 .dollar{
-    font-size: 30px;
-    font-weight: 700;;
+font-size: 30px;
+font-weight: 700;
     }
     
 .logo img{
@@ -80,21 +80,32 @@ main{
     margin:2%  auto 8% auto;
     
 }
-.months{
-    display: flex;
-    justify-content: space-between;
-    
-}
 
-p{
-    opacity: 50%;
-}
-.lineseparator{
-    height: 2px;
-    background-color: var(--Cream);
-    margin: 4% 0;
-}
-.day{
-    
-    position: relative;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    header{
+        gap:60%;
+    }
+  }
+  
+  

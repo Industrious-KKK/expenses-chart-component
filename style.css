@@ -19,11 +19,14 @@
  .bar{
     background-color: var(--Softred);
     width: 50px;
+    border-radius: 4px;
 
  }
 .graph{
     display: flex;
     align-items: baseline;
+
+    
 }
 body{
     background-color: hsl(27, 66%, 92%);
@@ -42,6 +45,7 @@ header{
     display: flex;
     gap: 85%;
     
+
 }
 .bal{
     opacity:70%;
@@ -52,8 +56,22 @@ header{
 font-size: 30px;
 font-weight: 700;;
     }
+<<<<<<< HEAD
     .logo {
        
 
     }
     
+=======
+    .logo img{
+        float: right;
+        margin-top: 0;
+    }
+.activeday:hover{
+    background-color: var(--Cyan);
+}
+main{
+    border-radius: 15px;
+    background-color: var(--Verypaleorange);
+}
+>>>>>>> c200d7127373ff87d2326390770283369a99194d

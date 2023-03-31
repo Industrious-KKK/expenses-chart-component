@@ -43,10 +43,11 @@ header{
     color: var(--Cream);
     padding: 20px 40px;
     display: flex;
-    gap: 85%;
+    gap: 80%;
     width: 50%;
     margin: auto;
     margin-top: 8%;
+    margin-bottom: 20px;
     
 
 }

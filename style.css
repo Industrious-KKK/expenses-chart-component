@@ -40,7 +40,6 @@ body{
 header{
     background-color: hsl(10, 79%, 65%);
     border-radius: 20px;
-    margin:200px;
     color: var(--Cream);
     padding: 20px 40px;
     display: flex;
@@ -57,13 +56,12 @@ header{
 font-size: 30px;
 font-weight: 700;;
     }
-<<<<<<< HEAD
-    .logo {
-       
-
-    }
     
-=======
+
+
+
+
+    
     .logo img{
         float: right;
         margin-top: 0;
@@ -79,5 +77,8 @@ main{
     width: 80%;
     margin: auto;
 }
+<<<<<<< HEAD
 =======
 
+=======
+>>>>>>> 14bffc90f405bfe0698736bc125422e533f5ed0e

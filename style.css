@@ -19,11 +19,14 @@
  .bar{
     background-color: var(--Softred);
     width: 50px;
+    border-radius: 4px;
 
  }
 .graph{
     display: flex;
     align-items: baseline;
+
+    
 }
 body{
     background-color: hsl(27, 66%, 92%);
@@ -32,4 +35,12 @@ body{
 .txt{
     font-weight: 700;
     font-size: 20px;
+}
+
+.activeday:hover{
+    background-color: var(--Cyan);
+}
+main{
+    border-radius: 15px;
+    background-color: var(--Verypaleorange);
 }

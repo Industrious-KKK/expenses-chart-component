@@ -8,11 +8,11 @@ fetch("./data.json").then(res => res.json()).then(data => {
  
  bars.innerHTML +=   data.map(bar => {
  return (
-
     `<div class="bar" style="height:${bar.amount*3}px"> </div>
-    <p> ${bar.day} </p>
+    <div class="day"><p> ${bar.day} </p> </div>
     `
  )
 
 })
+console.log(data);
 });

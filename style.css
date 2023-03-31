@@ -20,13 +20,15 @@
     background-color: var(--Softred);
     width: 50px;
     border-radius: 4px;
-
- }
+    position: relative;
+    
+}
 .graph{
     display: flex;
     align-items: baseline;
     padding: 20px 20px;
-
+    
+    
     
 }
 body{
@@ -48,7 +50,7 @@ header{
     margin: auto;
     margin-top: 8%;
     
-
+    
 }
 .bal{
     opacity:70%;
@@ -56,22 +58,43 @@ header{
     font-size: 20px;
 }
 .dollar{
-font-size: 30px;
-font-weight: 700;;
+    font-size: 30px;
+    font-weight: 700;;
     }
     
 .logo img{
-        float: right;
-        margin-top: 0;
-    }
-.activeday:hover{
+    float: right;
+    margin-top: 0;
+}
+.activeday{
     background-color: var(--Cyan);
+    width: 50px;
+    border-radius: 4px;
+    position: relative;
 }
 main{
     border-radius: 15px;
     background-color: var(--Verypaleorange);
     padding: 20px;
     width: 50%;
-    margin: auto;
-    margin-bottom:8%;
+    margin:2%  auto 8% auto;
+    
+}
+.months{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+p{
+    opacity: 50%;
+}
+.lineseparator{
+    height: 2px;
+    background-color: var(--Cream);
+    margin: 4% 0;
+}
+.day{
+    
+    position: relative;
 }

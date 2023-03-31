@@ -35,6 +35,23 @@ body{
 }
 header{
     background-color: hsl(10, 79%, 65%);
-    border: 5%;
+    border-radius: 10px;
+    margin:200px;
+    color: var(--Cream);
+    padding: 50px 100px;
+    display: flex;
     
 }
+.bal{
+    opacity:70%;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+    .dollar{
+font-size: 30px;
+font-weight: 700;;
+    }
+    .logo img{
+        float: right;
+        margin-top: 0;
+    }

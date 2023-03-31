@@ -52,17 +52,12 @@ header{
     padding-bottom: 10px;
     font-size: 20px;
 }
-    .dollar{
+.dollar{
 font-size: 30px;
 font-weight: 700;;
     }
     
-
-
-
-
-    
-    .logo img{
+.logo img{
         float: right;
         margin-top: 0;
     }
@@ -72,13 +67,8 @@ font-weight: 700;;
 main{
     border-radius: 15px;
     background-color: var(--Verypaleorange);
-<<<<<<< HEAD
     padding: 20px;
     width: 80%;
     margin: auto;
+    margin-bottom:8%;
 }
-<<<<<<< HEAD
-=======
-
-=======
->>>>>>> 14bffc90f405bfe0698736bc125422e533f5ed0e

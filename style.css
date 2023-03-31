@@ -44,7 +44,7 @@ header{
     padding: 20px 40px;
     display: flex;
     gap: 85%;
-    width: 80%;
+    width: 50%;
     margin: auto;
     margin-top: 8%;
     
@@ -71,7 +71,7 @@ main{
     border-radius: 15px;
     background-color: var(--Verypaleorange);
     padding: 20px;
-    width: 80%;
+    width: 50%;
     margin: auto;
     margin-bottom:8%;
 }

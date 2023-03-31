@@ -36,7 +36,29 @@ body{
     font-weight: 700;
     font-size: 20px;
 }
+header{
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+    margin:200px;
+    color: var(--Cream);
+    padding: 50px 100px;
+    display: flex;
+    
 
+}
+.bal{
+    opacity:70%;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+    .dollar{
+font-size: 30px;
+font-weight: 700;;
+    }
+    .logo img{
+        float: right;
+        margin-top: 0;
+    }
 .activeday:hover{
     background-color: var(--Cyan);
 }

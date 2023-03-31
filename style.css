@@ -39,11 +39,12 @@ body{
 }
 header{
     background-color: hsl(10, 79%, 65%);
-    border-radius: 10px;
+    border-radius: 20px;
     margin:200px;
     color: var(--Cream);
-    padding: 50px 100px;
+    padding: 20px 40px;
     display: flex;
+    gap: 85%;
     
 
 }
@@ -56,6 +57,13 @@ header{
 font-size: 30px;
 font-weight: 700;;
     }
+<<<<<<< HEAD
+    .logo {
+       
+
+    }
+    
+=======
     .logo img{
         float: right;
         margin-top: 0;
@@ -66,7 +74,10 @@ font-weight: 700;;
 main{
     border-radius: 15px;
     background-color: var(--Verypaleorange);
+<<<<<<< HEAD
     padding: 20px;
     width: 80%;
     margin: auto;
 }
+=======
+

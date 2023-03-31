@@ -25,6 +25,7 @@
 .graph{
     display: flex;
     align-items: baseline;
+    padding: 20px 20px;
 
     
 }
@@ -65,4 +66,7 @@ font-weight: 700;;
 main{
     border-radius: 15px;
     background-color: var(--Verypaleorange);
+    padding: 20px;
+    width: 80%;
+    margin: auto;
 }

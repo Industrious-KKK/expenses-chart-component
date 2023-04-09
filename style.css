@@ -18,22 +18,50 @@
 }
  .bar{
     background-color: var(--Softred);
-    width: 50px;
     border-radius: 4px;
-    position: relative;
+    /* position: relative; */
     
 }
+
+.activeday, .bar{
+    width: clamp(10px, 7vw, 50px);
+    transition: all 200ms ease-in-out ;
+}
+
+.activeday:hover, .bar:hover{
+    transform: scale(0.9);
+}
+
 .graph{
     display: flex;
     align-items: baseline;
-    padding: 20px 20px;
-    
-    
-    
+    justify-content: space-between;
+    padding-block: 2rem;
+    position: relative;
+}
+
+.graph::after{
+    height: 2px;
+    background-color: var(--Cream);
+    bottom:  0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    margin-block-end: 1rem;
 }
 body{
     background-color: hsl(27, 66%, 92%);
     font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+}
+
+header, main {
+    padding: 20px;
+    width: min(500px, 100vw - 2rem);
+    margin-inline: auto;
 }
 .txt{
     font-weight: 700;
@@ -43,14 +71,9 @@ header{
     background-color: hsl(10, 79%, 65%);
     border-radius: 20px;
     color: var(--Cream);
-    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
-    width: 50%;
-    margin: auto;
-    margin-top: 8%;
-    
-    
+    align-items: center;
 }
 .bal{
     opacity:70%;
@@ -62,50 +85,25 @@ font-size: 30px;
 font-weight: 700;
     }
     
-.logo img{
-    float: right;
-    margin-top: 0;
-}
 .activeday{
     background-color: var(--Cyan);
-    width: 50px;
     border-radius: 4px;
-    position: relative;
 }
 main{
     border-radius: 15px;
-    background-color: var(--Verypaleorange);
-    padding: 20px;
-    width: 50%;
-    margin:2%  auto 8% auto;
-    
+    background-color: var(--Verypaleorange);    
 }
 
+.months{
+    display: flex;
+    justify-content: space-between;
+}
 
+p{
+    color: var(--Mediumbrown);
+}
 
+.day{ 
+    position: relative;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-   
-    header{
-        gap:60%;
-    }
-  }
-  
-  

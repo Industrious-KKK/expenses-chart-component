@@ -10,26 +10,20 @@ fetch("./data.json").then(res => res.json()).then(data => {
  
  bars.innerHTML +=   data.map(bar => {
     
-    const kibi = bar.day;
+
     
     
     return (
-       `<div class="bar" style="height:${bar.amount*3}px"> </div>
-       <div class="day"><p> ${bar.day} </p> </div>
+       `<div class="bar_items">
+       <div class=${bar.day === dayName ? "activeday" : "bar"} style="height:${bar.amount*3}px"> </div>
+       <p class="day"> ${bar.day} </p>
+       </div>
        `
        )
 
-function weekdayFuntion(){
+      }).join("")
+      console.log(data);
+   });
 
-   if (dayName === kibi){
-      
-   barsDiv.classList.add("activeday")
    
-   } 
-}
-
-
-       
-      })
-console.log(data);
-});
+console.log(today);

@@ -74,7 +74,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .bal{
     opacity:70%;
@@ -82,8 +81,8 @@ header{
     font-size: 20px;
 }
 .dollar{
-    font-size: 30px;
-    font-weight: 700;;
+font-size: 30px;
+font-weight: 700;
     }
     
 .activeday{
@@ -94,6 +93,7 @@ main{
     border-radius: 15px;
     background-color: var(--Verypaleorange);    
 }
+
 .months{
     display: flex;
     justify-content: space-between;
@@ -106,3 +106,4 @@ p{
 .day{ 
     position: relative;
 }
+
